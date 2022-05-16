@@ -1,0 +1,46 @@
+-- add primary key to tasty_clean table
+ALTER TABLE tasty_clean ADD PRIMARY KEY (id);
+
+-- creat view with all tag counts (view_question 3)
+CREATE VIEW view_question_3 AS
+SELECT * FROM tags_counts
+WHERE tag
+LIKE 		'%ethiopian%'
+OR tag LIKE '%hawaiian%'
+OR tag LIKE '%lebanese%'
+OR tag LIKE '%swedish%'
+OR tag LIKE '%persian%'
+OR tag LIKE '%lebanese%'
+OR tag LIKE '%african%'
+OR tag LIKE '%indigenous%'
+OR tag LIKE '%laotian%'
+OR tag LIKE '%venezuelan%'
+OR tag LIKE '%kenyan%'
+OR tag LIKE '%peruvian%'
+OR tag LIKE '%american'
+OR tag LIKE '%brazilian%'
+OR tag LIKE '%korean%'
+OR tag LIKE '%japanese%'
+OR tag LIKE '%german%'
+OR tag LIKE '%haitian%'
+OR tag LIKE '%taiwanese%'
+OR tag LIKE '%filipino%'
+OR tag LIKE '%jamaican%'
+OR tag LIKE '%bbq%'
+OR tag LIKE '%chinese%'
+OR tag LIKE '%french%'
+OR tag LIKE '%caribbean%'
+OR tag LIKE '%vietnamese%'
+OR tag LIKE '%fusion%'
+OR tag LIKE '%cuban%'
+OR tag LIKE '%british%'
+OR tag LIKE '%thai%'
+OR tag LIKE '%puerto_rican%'
+OR tag LIKE '%dominican%'
+OR tag LIKE '%greek%'
+OR tag LIKE '%indian%'
+OR tag LIKE 'seafood%'
+OR tag LIKE '%middle_eastern%'
+OR tag LIKE '%mexican%'
+OR tag LIKE '%italian%'
+OR tag LIKE '%soul_food%';
