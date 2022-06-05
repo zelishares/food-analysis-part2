@@ -2,6 +2,7 @@
 
 ## SQL-Scripts
 - View_Q3.sql - contains the SQL command to create the view_question_3.
+- SQL_view_Q1.sql - contains the SQL comands to create the view for question 1.
 
 ## Tasty
 - 1_api-to-db.ipynb - This Jupyter Notebook contains the AWS Lambda-Function to fetch the data from selected tags from the API, clean it and upload the data to the data lake.
