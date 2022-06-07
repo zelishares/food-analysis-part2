@@ -17,5 +17,5 @@
 - Lambda_history_tweets cleaning - This Jupyter Notebook contains the AWS Lambda-Function to catch the data from the lake and do some cleaning and adding the recipe name for the historicyl tweets. The data is saved in the lake again.
 - Lambda_combining_data - This Jupyter Notebook contains the AWS Lambda-Function to catch the cleand twitter data from the lake and loads it in the data warehouse.
 
-## Open Food Facts
+## MyFoodData.com
 - Lambda MyFoodData New -  This Jupyter Notebook kontains the adjusted Lambda-Function to fetch, clean and load the data from MyFoodData.com into the PostgesDB
